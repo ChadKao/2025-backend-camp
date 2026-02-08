@@ -549,7 +549,7 @@ class AdminController {
       })
     } catch (error) {
       logger.error(error)
-      next(error)
+      next(error) 
     }
   }
 }
